@@ -2,7 +2,7 @@ import axios from 'axios';
 import {useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
-const URI = 'http://viaduct.proxy.rlwy.net:28870/sales/';
+const URI = 'https://app121-back-production.up.railway.app/sales';
 
 const CompShowSales = () =>{
     const [sales, setSale] = useState([])

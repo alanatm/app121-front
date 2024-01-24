@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Select from "react-select";
 
-const URI = "http://viaduct.proxy.rlwy.net:28870/sales/";
+const URI = "https://app121-back-production.up.railway.app/sales";
 
 const CompEditSale = () => {
   const [recarga_plan, setRecarga] = useState("");
