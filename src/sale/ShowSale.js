@@ -2,7 +2,7 @@ import axios from 'axios';
 import {useState,useEffect} from 'react';
 import {Link} from 'react-router-dom';
 
-const URI = 'https://app121-back-production.up.railway.app/sales';
+const URI = 'https://app121-back-production.up.railway.app/';
 
 const CompShowSales = () =>{
     const [sales, setSale] = useState([])
@@ -39,7 +39,7 @@ const CompShowSales = () =>{
                         </tr>  
                     </thead>
                     <tbody>
-                        {sales.map ((sale) =>(
+                        {sales.map((sale) =>(
                             <tr key={sale.id}>
                                 <td> {sale.dn} </td>
                                 <td> {sale.nombres_cliente} </td>

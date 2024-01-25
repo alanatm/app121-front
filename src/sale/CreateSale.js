@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Select from "react-select";
 
-const URI = "https://app121-back-production.up.railway.app/sales";
+const URI = "https://app121-back-production.up.railway.app";
 
 const CompCreateSale = () => {
   const [recarga_plan, setRecarga] = useState("");
