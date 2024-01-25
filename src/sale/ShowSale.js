@@ -40,6 +40,7 @@ const CompShowSales = () =>{
                     </thead>
                     <tbody>
                         {sales.map((sale) =>(
+                           
                             <tr key={sale.id}>
                                 <td> {sale.dn} </td>
                                 <td> {sale.nombres_cliente} </td>
